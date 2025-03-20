@@ -191,5 +191,5 @@ total_sales_label_text.pack()
 total_sales_count_label = Label(sales_frame, text='0', bg='#E74C3C', fg='white', font=('times new roman', 30, 'bold'))
 total_sales_count_label.pack()
 
-# I have to keep everything under this loop
+# I have to keep everything under this looping
 window.mainloop()
