@@ -143,7 +143,7 @@ total_sup_label_text.pack()
 total_sup_count_label = Label(sup_frame, text='0', bg='#8E44AD', fg='white', font=('times new roman', 30, 'bold'))
 total_sup_count_label.pack()
 
-'''====>  For Total Categories <=========  '''
+'''====>  For Total Categories <==== '''
 cat_frame = Frame(window, bg='#27AE60', bd=3, relief=RIDGE)
 cat_frame.place(x=400, y=310, height=170, width=280)
 total_cat_image = PhotoImage(file='totalcategories.png')
