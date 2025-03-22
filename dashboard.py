@@ -182,7 +182,7 @@ total_sales_image = PhotoImage(file='totalSales.png')
 total_sales_label = Label(sales_frame, image=total_sales_image, bg='#E74C3C')
 total_sales_label.pack(pady=10)
 
-# For Total Sales Text
+# For Total Sales Text part
 total_sales_label_text = Label(sales_frame, text='Total Sales', bg='#E74C3C', fg='white',
                                font=('times new roman', 15, 'bold'))
 total_sales_label_text.pack()
